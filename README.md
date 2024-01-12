@@ -14,7 +14,7 @@ Using ```poetry install``` it will create a virtual env with all the necesary de
 
 If you need to add a dependency just use ```poetry add <dependency>``` or you can customice much more editing the ```pyproyect.toml```
 I exported all necesary dependencies to a requirements.txt 
-You can read more about Poetry [Here](https://python-poetry.org/)
+You can read more about Poetry [here](https://python-poetry.org/)
 Also you can expand even further with this post [Hypermodern Python](https://medium.com/@cjolowicz/hypermodern-python-d44485d9d769)
 
 
