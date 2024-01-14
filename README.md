@@ -28,11 +28,11 @@ You can find the data exploratory research on this [notebook](notebook/data_expl
 
 You can setup the dabase by running
 
-```docker run -d --name challenge_pg -v my_dbdata:/var/lib/postgresql/data -p 5432:5432 -e POSTGRES_PASSWORD=postgres -e POSTGRES_USER=postgres e POSTGRES_DB=data_analytics postgres```
+```docker run -d --name challenge_pg -p 5432:5432 -e POSTGRES_PASSWORD=postgres -e POSTGRES_USER=postgres e POSTGRES_DB=postgres postgres```
 
 You can access the database by running
 
-```docker exec -it challenge_pg psql -U postgres -d data_analytics```
+```docker exec -it challenge_pg psql -U postgres -d postgres```
 
 ## Creating the database
 
@@ -56,4 +56,4 @@ Where ```value``` is the correct value you need.
 
 You can run the etl by using the command.
 
-```python python challenge/main.py --date 2024-01-11```
+```python python challenge/main.py --date 2021-08-31 ```
