@@ -1,5 +1,8 @@
 # Argentina Open Data Challenge
 
+Using the Argentinian open data portal, I created an ETL pipeline
+to find trends over movie theaters, libraries and museums in different parts of the country
+
 You can find the challenge [here](Challenge.pdf)
 
 ## Prerequisites
